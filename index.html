@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Jamaah | Kelola Tabungan Lebih Transparan</title>
+    <meta name="description" content="Aplikasi pencatatan tabungan, penarikan, dan pelaporan keuangan jamaah dengan teknologi cloud yang aman.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/icon.jpg" alt="Logo Finance Jamaah" class="logo-img">
+                <span>Finance</span>
+            </div>
+            <div class="nav-links desktop-only">
+                <a href="#cerita" class="nav-item">Cerita Kami</a>
+                <a href="#fitur" class="nav-item">Fitur Utama</a>
+                <a href="#faq" class="nav-item">Pertanyaan Umum</a>
+            </div>
+            <div class="nav-cta">
+                <a href="#download" class="btn btn-primary">Unduh Aplikasi</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-content fade-in-up">
+                <div class="badge">Platform Keuangan Komunitas</div>
+                <h1 class="hero-title">Transparansi penuh<br>untuk dana <span>jamaah.</span></h1>
+                <p class="hero-desc">Tinggalkan buku catatan manual. Catat setoran harian, kelola penarikan dana, dan ekspor laporan rekapitulasi dengan satu sentuhan.</p>
+                <div class="hero-actions">
+                    <a href="#fitur" class="btn btn-primary btn-lg">Pelajari Fitur</a>
+                    <a href="#download" class="btn btn-ghost btn-lg">
+                        <i class="ph-bold ph-download-simple"></i> Dapatkan Aplikasi
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in-up" style="animation-delay: 0.2s;">
+                <div class="glass-card mockup-wrapper">
+                    <!-- Dashboard.png full frame -->
+                    <div class="phone-frame">
+                        <img src="Screenshot/Dashboard.png" alt="Tampilan Dashboard Aplikasi Finance Jamaah" class="mockup-img">
+                    </div>
+                    
+                    <!-- Floating UI elements -->
+                    <div class="float-card float-left">
+                        <div class="float-icon green"><i class="ph-bold ph-arrow-down-left"></i></div>
+                        <div class="float-text">
+                            <span class="float-title">Setoran Baru</span>
+                            <span class="float-subtitle">+ Rp 50.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logo Bar -->
+    <section class="logo-bar">
+        <div class="container">
+            <p>Dirancang khusus untuk ekosistem komunitas dan biro travel</p>
+            <div class="logos">
+                <i class="ph-fill ph-mosque"></i>
+                <i class="ph-fill ph-users-three"></i>
+                <i class="ph-fill ph-bank"></i>
+                <i class="ph-fill ph-shield-check"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="story-section" id="cerita">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-header reveal">
+                    <span class="story-eyebrow">LATAR BELAKANG</span>
+                    <h2>Berawal dari sebuah buku tulis <span>biasa.</span></h2>
+                </div>
+                <div class="story-content reveal" style="transition-delay: 0.2s;">
+                    <p>Semua bermula dari melihat orang tua yang menjadi bendahara jamaah yang harus menggaris buku tulis secara manual setiap minggu untuk mencatat uang masuk dan keluar. Menghitung total tabungan tiap anggota satu per satu tidak hanya memakan waktu, tapi juga rentan terjadi selisih hitung.</p>
+                    <p>Berangkat dari kesulitan tersebut, lahirlah <strong> Jamaah Finance</strong>. Sebuah sistem yang menggantikan penggaris dan pena dengan kalkulasi otomatis. Mulai dari pencatatan setoran, rekapitulasi kas harian, hingga cetak laporan PDF untuk masing-masing jamaah semuanya kini selesai dalam hitungan detik.</p>
+                    <div class="highlight-box">
+                        <p>Antarmuka (UI/UX) aplikasi ini sengaja didesain dengan tombol besar, bersih, dan tanpa kerumitan. Tujuannya satu: memastikan orang tua dapat menggunakannya dengan nyaman tanpa rasa bingung.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Grid Section -->
+    <section class="features" id="fitur">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Segala yang Anda butuhkan,<br>dalam satu genggaman.</h2>
+                <p class="section-subtitle">Tampilan antarmuka yang dirancang untuk memudahkan Anda membaca informasi tanpa terpotong.</p>
+            </div>
+            
+            <div class="showcase-grid">
+                <!-- Column 1: Manajemen Jamaah -->
+                <div class="showcase-item reveal">
+                    <div class="showcase-text">
+                        <div class="icon-box"><i class="ph-bold ph-users-three"></i></div>
+                        <h3>Manajemen Jamaah</h3>
+                        <p>Kelola data jamaah dalam satu daftar terpusat. Tambah dan cari jamaah hanya dalam hitungan detik tanpa membuka buku besar.</p>
+                    </div>
+                    <div class="showcase-device">
+                        <img src="Screenshot/Manajemen%20jamaah.png" alt="Manajemen Jamaah">
+                    </div>
+                </div>
+
+                <!-- Column 2: Profil & Histori -->
+                <div class="showcase-item bg-accent reveal" style="transition-delay: 0.1s;">
+                    <div class="showcase-text text-light">
+                        <div class="icon-box white"><i class="ph-bold ph-user-circle"></i></div>
+                        <h3>Profil & Histori</h3>
+                        <p>Akses detail lengkap tabungan dan riwayat penarikan tiap individu. Pantau seluruh arus kas spesifik per orang.</p>
+                    </div>
+                    <div class="showcase-device">
+                        <img src="Screenshot/Profil%20Jamaah.png" alt="Profil Jamaah">
+                    </div>
+                </div>
+
+                <!-- Column 3: Laporan Kas -->
+                <div class="showcase-item reveal" style="transition-delay: 0.2s;">
+                    <div class="showcase-text">
+                        <div class="icon-box blue"><i class="ph-bold ph-printer"></i></div>
+                        <h3>Laporan Kas Otomatis</h3>
+                        <p>Sistem merekapitulasi arus kas harian. Anda dapat melihat pratinjau dan mengekspornya ke PDF yang siap cetak.</p>
+                    </div>
+                    <div class="showcase-device">
+                        <img src="Screenshot/Laporan%20kas.png" alt="Laporan Kas">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Wide Banner for Architecture -->
+            <div class="architecture-banner reveal">
+                <div class="arch-content">
+                    <h3>Arsitektur Data Cloud yang Andal</h3>
+                    <p>Tersimpan secara real-time di Firestore. Jika perangkat Anda hilang, data tabungan jamaah tetap utuh dan tersinkronisasi.</p>
+                </div>
+                <div class="data-flow">
+                    <div class="node"><i class="ph-fill ph-device-mobile"></i></div>
+                    <div class="line"></div>
+                    <div class="node center"><i class="ph-fill ph-database"></i></div>
+                    <div class="line"></div>
+                    <div class="node"><i class="ph-fill ph-shield-check"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container faq-container">
+            <div class="faq-header reveal">
+                <h2 class="section-title">Pertanyaan Umum</h2>
+                <p>Pelajari lebih lanjut tentang sistem operasional kami.</p>
+            </div>
+            
+            <div class="faq-list reveal">
+                <div class="faq-item">
+                    <button class="faq-btn">Apakah data tabungan aman? <i class="ph-bold ph-caret-down"></i></button>
+                    <div class="faq-content">
+                        <p>Sangat aman. Semua data disimpan di server cloud Google (Firebase/Firestore) yang memiliki enkripsi tingkat industri. Jika perangkat Anda hilang, data tidak akan ikut hilang.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn">Bagaimana jika terjadi kesalahan input? <i class="ph-bold ph-caret-down"></i></button>
+                    <div class="faq-content">
+                        <p>Admin memiliki akses ke riwayat transaksi secara mendetail dan dapat mengelola rekonsiliasi data melalui dashboard manajemen khusus.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn">Apakah laporan harian bisa dicetak langsung? <i class="ph-bold ph-caret-down"></i></button>
+                    <div class="faq-content">
+                        <p>Ya. Aplikasi dilengkapi fitur pembuat PDF bawaan. Anda dapat melihat pratinjau laporan kas harian di layar, dan langsung mencetaknya.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="download">
+        <div class="container">
+            <div class="cta-box reveal">
+                <h2>Siap memodernisasi pengelolaan dana?</h2>
+                <p>Tingkatkan transparansi dan hindari selisih pembukuan mulai hari ini.</p>
+                <div class="cta-actions">
+                    <a href="#" class="btn btn-primary btn-lg">Download untuk Android</a>
+                    <a href="#" class="btn btn-outline btn-lg">Hubungi Tim Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <img src="assets/icon.jpg" alt="Logo" class="logo-img grayscale">
+                    <span>Finance</span>
+                </div>
+                <p>Membawa transparansi, kecepatan, dan akurasi pada keuangan komunitas.</p>
+                <div class="social-links">
+                    <a href="#"><i class="ph-fill ph-instagram-logo"></i></a>
+                    <a href="#"><i class="ph-fill ph-whatsapp-logo"></i></a>
+                    <a href="#"><i class="ph-fill ph-envelope-simple"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Produk</h4>
+                    <a href="#fitur">Fitur Utama</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <a href="#">Kebijakan Privasi</a>
+                    <a href="#">Syarat Ketentuan</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Finance Jamaah App. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
