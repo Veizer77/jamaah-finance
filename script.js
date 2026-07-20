@@ -61,4 +61,24 @@ document.addEventListener('DOMContentLoaded', () => {
             item.classList.toggle('active');
         });
     });
+
+    // 5. Download Alert Toast
+    const downloadAlertBtns = document.querySelectorAll('.download-alert');
+    const toast = document.getElementById('toast');
+    let toastTimeout;
+
+    downloadAlertBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            
+            // Show toast
+            toast.classList.add('show');
+            
+            // Hide after 3.5 seconds
+            clearTimeout(toastTimeout);
+            toastTimeout = setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3500);
+        });
+    });
 });

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finance Jamaah | Kelola Tabungan Lebih Transparan</title>
     <meta name="description" content="Aplikasi pencatatan tabungan, penarikan, dan pelaporan keuangan jamaah dengan teknologi cloud yang aman.">
+    <link rel="icon" type="image/jpeg" href="assets/icon.jpg">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +18,7 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
-        <div class="nav-container">
+        <div class="container nav-container">
             <div class="logo">
                 <img src="assets/icon.jpg" alt="Logo Finance Jamaah" class="logo-img">
                 <span>Finance</span>
@@ -28,7 +29,7 @@
                 <a href="#faq" class="nav-item">Pertanyaan Umum</a>
             </div>
             <div class="nav-cta">
-                <a href="#download" class="btn btn-primary">Unduh Aplikasi</a>
+                <a href="#" class="btn btn-primary download-alert">Unduh Aplikasi</a>
             </div>
         </div>
     </nav>
@@ -43,7 +44,7 @@
                 <p class="hero-desc">Tinggalkan buku catatan manual. Catat setoran harian, kelola penarikan dana, dan ekspor laporan rekapitulasi dengan satu sentuhan.</p>
                 <div class="hero-actions">
                     <a href="#fitur" class="btn btn-primary btn-lg">Pelajari Fitur</a>
-                    <a href="#download" class="btn btn-ghost btn-lg">
+                    <a href="#" class="btn btn-ghost btn-lg download-alert">
                         <i class="ph-bold ph-download-simple"></i> Dapatkan Aplikasi
                     </a>
                 </div>
@@ -201,7 +202,7 @@
                 <h2>Siap memodernisasi pengelolaan dana?</h2>
                 <p>Tingkatkan transparansi dan hindari selisih pembukuan mulai hari ini.</p>
                 <div class="cta-actions">
-                    <a href="#" class="btn btn-primary btn-lg">Download untuk Android</a>
+                    <a href="#" class="btn btn-primary btn-lg download-alert">Download untuk Android</a>
                     <a href="#" class="btn btn-outline btn-lg">Hubungi Tim Kami</a>
                 </div>
             </div>
@@ -243,6 +244,12 @@
             </div>
         </div>
     </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <i class="ph-fill ph-info"></i>
+        <span>Mohon maaf, aplikasi sementara tidak bisa diunduh karena sedang dipakai perorangan. <strong>Hubungi developer jika Anda ingin mencoba lebih lanjut.</strong></span>
+    </div>
 
     <script src="script.js"></script>
 </body>
